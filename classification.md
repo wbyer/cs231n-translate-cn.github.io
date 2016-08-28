@@ -22,7 +22,7 @@ This is an introductory lecture designed to introduce people from outside of Com
 
 **Motivation**. In this section we will introduce the Image Classification problem, which is the task of assigning an input image one label from a fixed set of categories. This is one of the core problems in Computer Vision that, despite its simplicity, has a large variety of practical applications. Moreover, as we will see later in the course, many other seemingly distinct Computer Vision tasks (such as object detection, segmentation) can be reduced to image classification.
 
-**背景：** 在这一章节，我们将讨论图片分类问题。图片分类任务很简单－－给定一张图片作为输入，输出这张图片所属的类别，但却有着广泛的应用，是计算机视觉领域中的核心研究问题之一。其它的一些计算机视觉问题例如物体检测、图片分割，也可以通过转化为图片分类而解决，这在后续课程中会讨论到。
+**背景：** 在这一章节，我们将讨论图片分类问题。图片分类任务很简单－－给定一张图片作为输入，输出这张图片所属的类别，但却有着广泛的应用，是计算机视觉领域中的核心研究问题之一。其它的一些计算机视觉问题例如物体检测、图片分割等，也可以通过转化为图片分类而解决，这在后续课程中会讨论到。
 
 **Example**. For example, in the image below an image classification model takes a single image and assigns probabilities to 4 labels, *{cat, dog, hat, mug}*. As shown in the image, keep in mind that to a computer an image is represented as one large 3-dimensional array of numbers. In this example, the cat image is 248 pixels wide, 400 pixels tall, and has three color channels Red,Green,Blue (or RGB for short). Therefore, the image consists of 248 x 400 x 3 numbers, or a total of 297,600 numbers. Each number is an integer that ranges from 0 (black) to 255 (white). Our task is to turn this quarter of a million numbers into a single label, such as *"cat"*.
 
